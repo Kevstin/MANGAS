@@ -1,0 +1,64 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: cursive;
+	list-style: none;
+
+}
+body{
+	background-color: #1C1A1A;
+}
+.logo{
+	border-radius:50%; 
+}
+.debat{
+	font-size: 70px;
+	padding-left: 25px;
+}
+.barre{
+	display: flex; 
+	background-color: crimson;
+}
+.center{
+	display: flex;
+	margin: 5px;
+	padding-left: 25px;
+	height: 480px;
+}
+.images{
+	padding-left: 10px;
+	padding-top: 10px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 10px black;
+}
+.mot{
+	padding-left: 80px;
+	
+
+}
+.gauche{
+	width: 55%;
+	background:url(parfait.jpg);
+	display: flex;
+	border-radius: 5px;
+}
+.droit{
+	
+	width: 0%;
+	border-radius: 5px;
+}
+.lien:hover{
+	color: crimson;
+}
+.lien{
+	text-decoration: none;
+	color: #000;
+}
+.titre:hover{
+	color: #FFF;
+}
+.titre{
+	text-decoration: none;
+	color: black;
+}

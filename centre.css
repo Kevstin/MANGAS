@@ -1,0 +1,191 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: 'Redressed', cursive;
+	list-style: none;
+	font-size: 20px;
+
+}
+body{
+	background-color: #1C1A1A;
+}
+.logo{
+	padding-bottom: 20px;
+}
+.fixe{
+	display: flex;
+}
+a:hover{
+	color: crimson;
+	transition: 0.5s;
+}
+h2{
+	margin-bottom: 70px;
+}
+li{
+	list-style-type: none;
+	padding: 25px;
+}
+li{
+	color: black;
+}
+.tete{
+	display: flex;
+	background:url(picassoquatre.png);
+	width: 84.5%;
+	margin-bottom: 250px;
+	margin-left:222px;
+	position: fixed;
+	height: 100px;
+
+
+
+}
+.gauche{
+	background:url(picassoquatre.png);
+	width: 15%;
+	position: fixed;
+	height: 650px;
+	padding-left: 20px;
+
+}
+.logo{
+	border-radius:65%; 
+}
+.tappe{
+	margin-left: 645px;
+	margin-top: 33px;
+	padding-right: 90px;
+}
+.menu{
+	display: flex;
+}
+ol{
+	display: flex;
+}
+li .lu{
+	padding-left: 30px;
+	padding-top: 30px;
+	list-style-type: none;
+	text-decoration: none;
+	color: #fff;
+	display: flex;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+p{
+	color: #fff;
+}
+.centre{
+	width: 84%;
+	margin-left: 222px;
+	margin-top: 105px;
+	background-color:#1C1A1A;
+
+}
+.ecran{
+	border-radius: 5px;
+	
+
+}
+.images{
+	width: 100%;
+	height: 450px;
+	background-color:#1C1A1A;
+	display: flex;
+}
+.imagesgauches{
+	border-radius:
+	height: 475px;
+	background-color: #1C1A1A;
+	width: 832px;
+}
+.imagesdroits{
+	margin-left: 1px;
+    background:url(demonsun.jpg);
+	width: 300px;
+	animation: s 40s infinite;
+	
+}
+@keyframes s{
+	10%{
+		background:url(kira.jpg); 
+	}
+	20%{
+		background:url(shotodeux.jpg); 
+	}
+	30%{
+		background:url(onepunch.jpg); 
+	}
+	40%{
+		background:url(kakashi.jpg); 
+	}
+	50%{
+		background:url(slamddix.jpg); 
+	}
+	60%{
+		background:url(jujutsu.jpg); 
+	}
+	70%{
+		background:url(kencry.jpg); 
+	}
+	80%{
+		background:url(somayquatre.jpg); 
+	}
+	90%{
+		background:url(karma.jpg); 
+	}
+	100%{
+		background:url(kagami.jpg); 
+	}
+
+}
+.nom{
+	display: flex;
+	margin-left:40px;
+
+}
+p{
+	padding-left:40px;
+	padding-right: 30px;
+
+}
+.un{
+padding-left:40px;
+}
+.deux{
+	padding-left:40px;
+}
+.trois{
+	padding-left:40px;
+}
+.autre{
+	display: flex;
+	padding-top: 20px;
+}
+.image{
+	padding-left: 6px;
+	padding-right: 24px;
+	border-radius: 20px;
+}
+.acceuil{
+	border-radius: 15px; 
+	box-shadow: 1px 1px 10px #fff;
+}
+li{
+	padding-top: 0.5px;
+}
+.ligne{
+	display: flex;
+	padding-right: 15px; 
+	padding-bottom: 20px;
+	padding-left: 0.005px; 
+}
+h1{
+	background-color:#808080;
+	border-radius: 5px;
+	color: #fff;
+}
